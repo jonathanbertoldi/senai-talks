@@ -14,8 +14,7 @@ function createCard(data) {
 
   var cardTitle = document.createElement('div');
   cardTitle.className = 'mdl-card__title';
-  cardTitle.style.backgroundImage =
-    'url("https://dbwgapw6amg93.cloudfront.net/wp-content/uploads/2016/06/Hero-10-Unexpectedly-Insightful-TED-Talks-for-Designers.jpg")';
+  cardTitle.style.backgroundImage = 'url("/src/images/talk.jpg")';
   cardTitle.style.backgroundSize = 'cover';
   cardTitle.style.height = '140px';
   cardWrapper.appendChild(cardTitle);
